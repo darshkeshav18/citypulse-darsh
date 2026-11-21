@@ -1,0 +1,5 @@
+hello
+Information you entered is:
+name : hiii
+roll number : 12
+commit : commit
