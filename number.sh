@@ -25,3 +25,20 @@ elif [ $age -lt 150 ]; then
 else
   echo "How are you still alive?"
 fi
+
+#!/bin/bash
+
+# Loop over a range
+for i in {1..5}; do
+  echo "Number: $i"
+done
+
+# Loop over files
+for file in *.txt; do
+  echo "File: $file"
+done
+
+# C-style for loop
+for ((i=1; i<=5; i++)); do
+  echo "i = $i"
+done
